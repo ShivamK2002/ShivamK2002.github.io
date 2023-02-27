@@ -337,6 +337,10 @@ section.about {
 
 /* ===== SKILLS =====*/
 .skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   row-gap: 2rem;
   text-align: center;
 }
@@ -362,8 +366,8 @@ section.about {
 }
 
 .skills-icon {
-  width: 2rem;
-  font-size: 2rem;
+  width: 5rem;
+  font-size: 5rem;
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
