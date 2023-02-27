@@ -448,9 +448,9 @@ img.man-icons {
   cursor: pointer;
   margin-bottom: 0.5rem;
 }
-.project-img img:hover {
+/* .project-img img:hover {
   transform: scale(1.1);
-}
+} */
 .project-container p {
   margin: auto 1rem 1rem;
 }
