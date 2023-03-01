@@ -85,7 +85,7 @@ sr.reveal(".skills-data");
 
 /*SCROLL projects*/
 sr.reveal("#project");
-sr.reveal(".project-img");
+// sr.reveal(".project-img");
 
 /*SCROLL CONTACT*/
 // sr.reveal(".contact-input", { interval: 200 });
