@@ -51,7 +51,7 @@ navLinks.forEach((n) =>
 /*===== COPY Email =====*/
 const copy = document.getElementById("copy");
 copy.addEventListener("click", () => {
-  navigator.clipboard.writeText("ultimateengineer2002@gmail.com");
+  navigator.clipboard.writeText("kasulaarunteja@gmail.com");
   copy.innerHTML = "copied";
   setTimeout(() => {
     copy.innerHTML = null;
@@ -80,12 +80,11 @@ sr.reveal(".about-text", { delay: 400 });
 /*SCROLL SKILLS*/
 sr.reveal(".skills-subtitle", {});
 sr.reveal(".skills-text", {});
-sr.reveal(".skills-data");
+sr.reveal(".skills-data", { interval: 100 });
 // sr.reveal(".skills-img", { delay: 600 });
 
 /*SCROLL projects*/
-sr.reveal("#project");
-// sr.reveal(".project-img");
+sr.reveal(".project-img", { interval: 200 });
 
 /*SCROLL CONTACT*/
 // sr.reveal(".contact-input", { interval: 200 });
