@@ -67,8 +67,8 @@ body {
   color: var(--third-color);
 }
 
-#jobTitle {
-  animation: blinker 6s linear infinite;
+#myTitle {
+  animation: blinker 3s linear infinite;
 }
 
 @keyframes blinker {
@@ -172,6 +172,10 @@ img {
 .nav-link:hover {
   position: relative;
 }
+/* nav ul li a:hover {
+  font-size: 1.04rem;
+} */
+
 .nav-link:hover::after {
   position: absolute;
   content: "";
