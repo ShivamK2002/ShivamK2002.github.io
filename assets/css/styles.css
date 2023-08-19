@@ -56,14 +56,23 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: white;
+  /* background-color: white; */
+
+  background: linear-gradient(
+    to bottom right,
+    #e9b1fe 0%,
+    #b0c0ff 50%,
+    #9ad9e7 100%
+  );
+
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
 }
 .dark-mode {
-  background-color: black;
+  background: black;
+  font: white;
   color: var(--third-color);
 }
 
@@ -134,13 +143,13 @@ img {
   margin-right: var(--mb-2);
 }
 .l-header {
+  filter: drop-shadow(0 0 100px #121212);
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: white;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  /* background-color: white; */
 }
 
 /*===== NAV =====*/
@@ -236,7 +245,7 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--first-color);
+  color: var(--third-color);
 }
 .home-social-icon:hover,
 .footer-icon:hover {
@@ -542,7 +551,7 @@ img.man-icons {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
+  /* background-color: var(--second-color); */
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
@@ -592,9 +601,9 @@ img.man-icons {
   .nav-toggle {
     display: none;
   }
-  .nav-link {
-    color: var(--second-color);
-  }
+  /* .nav-link {
+    color: white;
+  } */
 
   .home {
     height: 100vh;
